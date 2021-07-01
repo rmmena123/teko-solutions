@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	vertical-align: baseline;
+	list-style: none;
+	border: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	background-color: #f3f4f8;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h2 {
+	text-align: center;
+	color: #282b62;
+	font-size: 32px;
+}
+
+/* ------------ NAVBAR ------------ */
+nav {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 2%;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	font-size: 36px;
+	font-weight: 700;
+	color: #282b62;
+	text-decoration: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #ada4a7;
+	font-weight: bold;
+	font-size: 18px;
+	transition-duration: 1s;
+}
+
+nav a:hover {
+	color: #282b62;
+}
+
+/* ------------ HEADER ------------ */
+header {
+	margin-bottom: 7%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #ffffff;
+	border-radius: 16px;
+	-webkit-box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+	-moz-box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+	box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+	flex-wrap: wrap;
+}
+
+header div:first-child {
+	max-width: 40%;
+}
+
+header div:first-child h1 {
+	font-size: 70px;
+	color: #282b62;
+	margin-left: 5%;
+}
+
+header div:first-child p {
+	font-size: 22px;
+	color: #ada4a7;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+
+header img {
+	width: 100%;
+}
+
+header #redes-sociais {
+	margin-top: 1%;
+	margin-left: 5%;
+}
+
+/* ------------ SERVIÇOS ------------ */
+#servicos {
+	margin-bottom: 7%;
+}
+
+#flex-servicos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.servico {
+	margin-top: 3%;
+	max-width: 500px;
+	background-color: #ffffff;
+	padding: 1%;
+	text-align: center;
+	border-radius: 8px;
+	-webkit-box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+	-moz-box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+	box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+}
+
+.servico h3 {
+	margin-top: 1%;
+	color: #282b62;
+	font-size: 28px;
+}
+
+.servico p {
+	text-align: center;
+	margin-top: 1%;
+	font-size: 18px;
+	color: #ada4a7;
+}
+
+i {
+	color: #282b62;
+	font-size: 72px;
+}
+
+/* ------------ TIMES ------------ */
+#time {
+	background-color: #ffffff;
+	border-radius: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 1%;
+	margin-bottom: 7%;
+	align-items: center;
+	-webkit-box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+	-moz-box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+	box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+}
+
+#time div:first-child {
+	max-width: 50%;
+}
+
+#time div:first-child p {
+	font-size: 18px;
+	color: #ada4a7;
+	text-align: center;
+	margin-top: 1%;
+}
+
+#time img {
+	width: 500px;
+	height: 500px;
+}
+
+/* ------------ CLIENTES ------------ */
+#clientes p {
+	margin-top: 1%;
+	font-size: 18px;
+	color: #ada4a7;
+	text-align: center;
+}
+
+#flex-clientes {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.shadow-cliente {
+	width: 200px;
+	background-color: #ffffff;
+	border-radius: 8px;
+	-webkit-box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+	-moz-box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+	box-shadow: 10px 10px 30px 0px rgba(173, 164, 167, 0.54);
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+#flex-clientes img {
+	width: 200px;
+}
+
+/* ------------ CLIENTES ------------ */
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#redes-sociais {
+	display: flex;
+}
+
+#redes-sociais div:first-child {
+	margin-right: 15px;
+}
+
+footer div h2 {
+	text-align: left;
+}
+
+footer p {
+	font-size: 18px;
+	color: #ada4a7;
+}
+
+/* ------------ MEDIA-QUERIES ------------ */
+@media screen and (max-width: 450px) {
+	#flex-clientes {
+		justify-content: center;
+	}
+
+	header h1,
+	header p {
+		text-align: center;
+	}
+
+	#redes-sociais {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	nav {
+		display: inline-block;
+		margin-top: 2%;
+		margin-bottom: 10%;
+		text-align: center;
+	}
+
+	nav ul {
+		margin-top: 4%;
+		justify-content: center;
+	}
+
+	nav ul li a {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 1111px) {
+	header {
+		justify-content: center;
+	}
+
+	header div:first-child {
+		max-width: 100%;
+	}
+
+	header div:first-child h1 {
+		font-size: 50px;
+		margin: 0;
+	}
+
+	header div:first-child p {
+		margin: 0;
+	}
+
+	header div:first-child #redes-sociais {
+		margin: 0;
+	}
+
+	header img {
+		display: none;
+	}
+
+	#time img {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+
+	#time div:first-child {
+		max-width: 100%;
+		padding: 7%;
+	}
+}
+
+@media screen and (max-width: 1418px) {
+	#flex-servicos {
+		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 1450px) {
+	.servico {
+		max-width: 200px;
+	}
+
+	i {
+		font-size: 54px;
+	}
+}
+
+@media screen and (max-width: 1842px) {
+	.servico {
+		max-width: 400px;
+	}
+
+	#time img {
+		width: 300px;
+		height: 300px;
+	}
+}
